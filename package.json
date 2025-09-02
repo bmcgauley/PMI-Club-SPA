@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^0.0.0-insiders.02",
+    "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.20",
     "next": "^15.0.0",
     "postcss": "^8.5.0",

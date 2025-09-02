@@ -22,6 +22,7 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
