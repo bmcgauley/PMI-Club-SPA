@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent">
-            Project Management Student Club
+            Project Management Institute Student Club
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 mb-4">
             California State University, Fresno
@@ -39,7 +39,7 @@ const Hero = () => {
               Launch the Future of <span className="text-[#F97316]">Project Management</span> at Fresno State
             </h2>
             <p className="text-lg text-purple-100 mb-8 leading-relaxed">
-              We're launching the Project Management Student Club at CSU Fresno! As a founding officer, you'll help establish a new student club in partnership with PMI Central Valley Chapter as part of PMI’s global Chapter Student Clubs program, shaping the future of project management education on campus.
+              We're launching the Project Management Institute Student Club at CSU Fresno! As a founding officer, you'll help establish a new student club in partnership with PMI Central Valley Chapter as part of PMI’s global Chapter Student Clubs program, shaping the future of project management education on campus.
             </p>
             <div className="space-y-3 text-sm">
               <div className="flex items-center">
