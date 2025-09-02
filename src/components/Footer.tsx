@@ -6,7 +6,7 @@ const Footer = () => {
           © 2025 Project Management Student Club at California State University, Fresno
         </p>
         <p className="text-purple-200 text-sm mt-2">
-          Founded in partnership with the Central Valley Project Management Institute
+          In partnership with PMI Central Valley Chapter as part of PMI’s global Chapter Student Clubs program
         </p>
       </div>
     </footer>

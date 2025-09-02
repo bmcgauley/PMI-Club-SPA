@@ -39,7 +39,7 @@ const Hero = () => {
               Launch the Future of <span className="text-[#F97316]">Project Management</span> at Fresno State
             </h2>
             <p className="text-lg text-purple-100 mb-8 leading-relaxed">
-              We're launching the Project Management Student Club at CSU Fresno! As a founding officer, you'll help establish a new student club affiliated with the Central Valley Project Management Institute and shape the future of project management education on campus.
+              We're launching the Project Management Student Club at CSU Fresno! As a founding officer, you'll help establish a new student club in partnership with PMI Central Valley Chapter as part of PMI’s global Chapter Student Clubs program, shaping the future of project management education on campus.
             </p>
             <div className="space-y-3 text-sm">
               <div className="flex items-center">

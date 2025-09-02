@@ -12,8 +12,8 @@ const Benefits = () => {
             Why Join as a <span className="text-[#F97316]">Founding Officer</span>?
           </h2>
           <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-            This isn't just another club activity - it's your launchpad for a project management career
-            and leadership experience that will set you apart.
+            This isn't just another club activity – it's your launchpad for building professional networks, developing leadership and project skills, and making a positive impact through social good projects.
+            Certifications (PMP, CAPM, PMI-ACP) are a valuable benefit, but our club also offers networking, skill-building, employability, and opportunities to contribute to the community.
           </p>
         </div>
 

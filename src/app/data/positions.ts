@@ -24,7 +24,7 @@ export const positions: Position[] = [
   {
     id: 'president',
     title: 'President',
-    timeCommitment: '8-10 hours per week',
+    timeCommitment: '1–3 hours per week (flexible, may increase during events/projects)',
     responsibilities: [
       'Strategic Leadership & Vision - Chapter vision development and communication of long-term strategic goals',
       'External Representation & University Relations - University liaison and PMI Chapter relationship',
@@ -95,7 +95,7 @@ export const positions: Position[] = [
   {
     id: 'vice-president',
     title: 'Vice President',
-    timeCommitment: '5-7 hours per week',
+    timeCommitment: '1–3 hours per week (flexible, may increase during events/projects)',
     responsibilities: [
       'Strategic Support & Leadership - Assist President with strategic planning and club vision implementation',
       'Internal Operations Management - Meeting facilitation and member engagement strategies',
@@ -166,7 +166,7 @@ export const positions: Position[] = [
   {
     id: 'secretary',
     title: 'Secretary',
-    timeCommitment: '3-5 hours/week',
+    timeCommitment: '1–3 hours per week (flexible, may increase during events/projects)',
     responsibilities: [
       'Document meeting minutes and chapter activities',
       'Manage member communications and correspondence',
@@ -245,7 +245,7 @@ export const positions: Position[] = [
   {
     id: 'treasurer',
     title: 'Treasurer',
-    timeCommitment: '4-6 hours/week',
+    timeCommitment: '1–3 hours per week (flexible, may increase during events/projects)',
     responsibilities: [
       'Establish and manage chapter finances',
       'Set up ASI Trust account and financial systems',
@@ -321,10 +321,11 @@ export const positions: Position[] = [
       ]
     }
   },
+  // The following roles are now considered optional committee positions, not required officers.
   {
     id: 'professional-development-coordinator',
-    title: 'Professional Development Coordinator',
-    timeCommitment: '5-7 hours/week',
+    title: 'Professional Development Coordinator (Committee Role)',
+    timeCommitment: 'Optional, varies by committee involvement',
     responsibilities: [
       'Design certification preparation programs',
       'Coordinate workshops and training sessions',
@@ -402,8 +403,8 @@ export const positions: Position[] = [
   },
   {
     id: 'external-relations-coordinator',
-    title: 'External Relations Coordinator',
-    timeCommitment: '4-6 hours/week',
+    title: 'External Relations Coordinator (Committee Role)',
+    timeCommitment: 'Optional, varies by committee involvement',
     responsibilities: [
       'Build partnerships with industry organizations',
       'Develop corporate sponsorship relationships',
@@ -554,8 +555,8 @@ export const positions: Position[] = [
   },
   {
     id: 'communications-coordinator',
-    title: 'Communications Coordinator',
-    timeCommitment: '5-7 hours per week',
+    title: 'Communications Coordinator (Committee Role)',
+    timeCommitment: 'Optional, varies by committee involvement',
     responsibilities: [
       'Digital Communications & Social Media - Social media management and content creation',
       'Brand Management & Visual Identity - Brand consistency and graphic design',

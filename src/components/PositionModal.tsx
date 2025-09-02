@@ -43,62 +43,10 @@ const PositionModal: React.FC<PositionModalProps> = ({ position, isOpen, onClose
 
         {/* Content */}
         <div className="p-6 space-y-6">
-          {/* Description */}
-          <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Position Overview</h3>
-            <p className="text-gray-700 leading-relaxed">{position.detailedDescription}</p>
-          </div>
 
-          {/* Requirements */}
-          {position.requirements && (
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Requirements</h3>
-              <ul className="space-y-2">
-                {position.requirements.map((req, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-gray-700">{req}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
 
-          {/* Skills */}
-          {position.skills && (
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Skills You'll Develop</h3>
-              <ul className="space-y-2">
-                {position.skills.map((skill, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-[#F97316] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-gray-700">{skill}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
 
-          {/* Responsibilities */}
-          <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Key Responsibilities</h3>
-            <ul className="space-y-2">
-              {position.responsibilities.map((resp, index) => (
-                <li key={index} className="flex items-start">
-                  <div className="w-2 h-2 bg-[#6B46C1] rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  <span className="text-gray-700">{resp}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
 
-          {/* Ideal Candidate */}
-          {position.idealCandidate && (
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Ideal Candidate</h3>
-              <p className="text-gray-700 leading-relaxed">{position.idealCandidate}</p>
-            </div>
-          )}
 
           {/* What You'll Gain */}
           {position.whatYoullGain && (
@@ -115,20 +63,6 @@ const PositionModal: React.FC<PositionModalProps> = ({ position, isOpen, onClose
             </div>
           )}
 
-          {/* Success Criteria */}
-          {position.successCriteria && (
-            <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Success Criteria</h3>
-              <ul className="space-y-2">
-                {position.successCriteria.map((criteria, index) => (
-                  <li key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-gray-700">{criteria}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
 
           {/* Position Details */}
           {position.positionDetails && (

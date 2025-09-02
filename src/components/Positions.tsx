@@ -31,15 +31,19 @@ const Positions = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Join us in launching CSU Fresno's first Project Management Institute Student Chapter.
-            Time commitment varies by role - find the position that fits your schedule and interests.
+            Officer time commitment is typically 1–3 hours/week, with flexibility for busier times like events or projects.
           </p>
         </div>
 
         {/* Officer Positions Section */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Founding Officer Positions</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {positions.filter(position => position.id !== 'general-member').map((position) => (
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Core Officer Positions</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {positions
+              .filter(position =>
+                ['president', 'vice-president', 'treasurer', 'secretary'].includes(position.id)
+              )
+              .map((position) => (
               <div
                 key={position.id}
                 onClick={() => !position.isFilled && openModal(position)}
@@ -212,20 +216,29 @@ const Positions = () => {
         </div>
 
         {/* Summary Stats */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#4EA2DA]">
-            <div className="text-3xl font-bold text-[#4EA2DA] mb-2">7</div>
-            <div className="text-gray-600">Total Opportunities</div>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#F97316]">
-            <div className="text-3xl font-bold text-[#F97316] mb-2">6</div>
-            <div className="text-gray-600">Available Now</div>
-          </div>
-          <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#6B46C1]">
-            <div className="text-3xl font-bold text-[#6B46C1] mb-2">1-10</div>
-            <div className="text-gray-600">Hours/Week</div>
-          </div>
-        </div>
+        {(() => {
+          const coreAndMember = positions.filter(
+            p => ['president', 'vice-president', 'treasurer', 'secretary', 'general-member'].includes(p.id)
+          );
+          const total = coreAndMember.length;
+          const available = coreAndMember.filter(p => !p.isFilled).length;
+          return (
+            <div className="mt-16 grid md:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#4EA2DA]">
+                <div className="text-3xl font-bold text-[#4EA2DA] mb-2">{total}</div>
+                <div className="text-gray-600">Total Opportunities</div>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#F97316]">
+                <div className="text-3xl font-bold text-[#F97316] mb-2">{available}</div>
+                <div className="text-gray-600">Available Now</div>
+              </div>
+              <div className="bg-white rounded-xl p-6 shadow-md text-center border-2 border-[#6B46C1]">
+                <div className="text-3xl font-bold text-[#6B46C1] mb-2">1–3</div>
+                <div className="text-gray-600">Hours/Week</div>
+              </div>
+            </div>
+          );
+        })()}
       </div>
 
       {/* Position Modal */}
