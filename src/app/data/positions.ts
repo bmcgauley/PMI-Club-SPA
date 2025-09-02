@@ -647,7 +647,7 @@ export const applicationProcess = {
   requirements: [
     'Currently enrolled CSU Fresno student',
     'Minimum 2.0 GPA and good academic standing',
-    'Commitment to 3-7 hours per week',
+    'Commitment to 1–3 hours per week (flexible, may increase during events/projects)',
     'Interest in project management or leadership development',
     'Attendance at bi-weekly meetings'
   ],

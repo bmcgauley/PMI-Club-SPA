@@ -76,14 +76,20 @@ const Hero = () => {
                   </div>
                   <div className="text-right">
                     <div className="text-xs text-purple-200">Click for details</div>
-                    <div className="text-xs text-green-300 font-semibold">💰 ${cert.cost.memberPrice} member</div>
                   </div>
                 </div>
               ))}
             </div>
+            <p className="text-center text-xs text-orange-200 mt-4">
+              <strong>Note:</strong> Certification costs shown in details are for the exams, not club membership dues.
+            </p>
             <p className="text-center text-[#F97316] mt-6 text-sm font-semibold">
               Founding member status - permanent recognition
             </p>
+            <div className="mt-8 bg-white/10 rounded-xl p-4 border border-white/20 max-w-md mx-auto">
+              <span className="block text-lg font-bold text-[#F97316] mb-1">PMI Student Membership</span>
+              <span className="block text-white text-sm">$25/semester for all members</span>
+            </div>
           </div>
         </div>
       </div>

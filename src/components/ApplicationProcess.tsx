@@ -93,30 +93,30 @@ const ApplicationProcess = () => {
 
         {/* Interview Process */}
         <div className="mt-16 bg-gradient-to-br from-orange-50 to-blue-50 rounded-2xl p-8 border-2 border-[#F97316]">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Interview Tips & What to Expect</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Informal Interview: What to Expect</h3>
           <div className="grid md:grid-cols-1 gap-8">
             <div>
-              <h4 className="font-semibold text-[#4EA2DA] mb-4">💡 Interview Preparation Tips</h4>
+              <h4 className="font-semibold text-[#4EA2DA] mb-4">💡 Conversation Starters & Tips</h4>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3"></div>
-                  <span className="text-gray-700">Research project management fundamentals and PMI's mission</span>
+                  <span className="text-gray-700">No need to stress – this is a relaxed, get-to-know-you chat</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3"></div>
-                  <span className="text-gray-700">Be ready to discuss your relevant experience and leadership roles</span>
+                  <span className="text-gray-700">Share what interests you about project management or leadership</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3"></div>
-                  <span className="text-gray-700">Prepare thoughtful questions about our club activities and goals</span>
+                  <span className="text-gray-700">Tell us about any experience (clubs, work, volunteering) – or just your curiosity!</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3"></div>
-                  <span className="text-gray-700">Show genuine enthusiasm for project management and team collaboration</span>
+                  <span className="text-gray-700">Ask questions about the club, our activities, or what you hope to get out of it</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#4EA2DA] rounded-full mt-2 mr-3"></div>
-                  <span className="text-gray-700">Demonstrate clear communication and professional presentation</span>
+                  <span className="text-gray-700">Show your enthusiasm for learning and being part of a team</span>
                 </li>
               </ul>
             </div>

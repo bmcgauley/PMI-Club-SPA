@@ -12,8 +12,8 @@ const Benefits = () => {
             Why Join as a <span className="text-[#F97316]">Founding Officer</span>?
           </h2>
           <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-            This isn't just another club activity – it's your launchpad for building professional networks, developing leadership and project skills, and making a positive impact through social good projects.
-            Certifications (PMP, CAPM, PMI-ACP) are a valuable benefit, but our club also offers networking, skill-building, employability, and opportunities to contribute to the community.
+            This isn't just another club activity – it's your launchpad for building professional networks, developing leadership and project skills, boosting your employability, and making a positive impact through social good projects.
+            While we offer support for valuable certifications (PMP, CAPM, PMI-ACP), the core benefits are the connections, skills, and real-world experience you gain as part of a vibrant, service-oriented community.
           </p>
         </div>
 
@@ -100,12 +100,12 @@ const Benefits = () => {
                 <div className="text-xs text-purple-200 mt-1">35 contact hours required</div>
               </div>
               <div className="bg-white/10 rounded-lg p-4 border border-[#4EA2DA]/30">
-                <div className="text-xl font-bold text-[#4EA2DA] mb-2">CAPM</div>
+                <div className="text-xl font-bold text-[#F97316] mb-2">CAPM</div>
                 <div className="text-sm text-purple-100">Certified Associate in Project Management</div>
                 <div className="text-xs text-purple-200 mt-1">23 contact hours required</div>
               </div>
               <div className="bg-white/10 rounded-lg p-4 border border-[#6B46C1]/30">
-                <div className="text-xl font-bold text-[#6B46C1] mb-2">PMI-ACP</div>
+                <div className="text-xl font-bold text-[#F97316] mb-2">PMI-ACP</div>
                 <div className="text-sm text-purple-100">Agile Certified Practitioner</div>
                 <div className="text-xs text-purple-200 mt-1">21 contact hours required</div>
               </div>
